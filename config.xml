@@ -74,6 +74,9 @@
     <gap:splash src="splash.png" />
 
     <platform name="android">
+            <resource-file src="res/xml/opener_paths.xml" target="res/xml/opener_paths.xml" />
+  <resource-file src="res/xml/camera_provider_paths.xml" target="res/xml/camera_provider_paths.xml" />
+  <resource-file src="res/xml/provider_paths.xml" target="res/xml/provider_paths.xml" />
         <resource-file src="MainActivity.java" target="app/src/main/java/com/moodle/moodlemobile/MainActivity.java" />
         <resource-file src="google-services.json" target="app/google-services.json" />
         <resource-file src="resources/values/colors.xml" target="app/src/main/res/values/colors.xml" />
